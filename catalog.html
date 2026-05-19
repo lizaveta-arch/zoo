@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="dog.png" alt="Логотип" class="logo-img">
+            </div>
+        
+            <div class="search-section">
+                <div class="search-wrapper">
+                    <input type="text" class="search-input" placeholder="Поиск товаров, брендов...">
+                    <button class="catalog-btn">Каталог →</button>
+                </div>
+            </div>
+            
+            <div class="burger-menu">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+            
+            <nav class="top-nav">
+                <ul class="nav-list">
+                    <li><a href="cart.html">Корзина</a></li>
+                    <li><a href="index.html">Бренды</a></li>
+                    <li><a href="catalog.html">Магазины</a></li>
+                    <li><a href="profile.html">Профиль</a></li>
+                    <li><a href="articles.html">Статьи</a></li>
+                    <li><a href="products.html">Товары</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="catalog-page">
+            <div class="catalog-container">
+                <aside class="catalog-main-categories">
+                    <ul class="main-categories-list">
+                        <li><a href="#" class="active">Кошки</a></li>
+                        <li><a href="#">Собаки</a></li>
+                        <li><a href="#">Грызуны</a></li>
+                        <li><a href="#">Рыбы</a></li>
+                        <li><a href="#">Птицы</a></li>
+                        <li><a href="#">Рептилии</a></li>
+                        <li><a href="#">Лошади</a></li>
+                    </ul>
+                </aside>
+
+                <div class="catalog-subcategories">
+                    <div class="subcategory-block">
+                        <h3 class="subcategory-title">Корм</h3>
+                        <div class="subcategory-links">
+                            <a href="#">Сухой</a>
+                            <a href="#">Влажный</a>
+                            <a href="#">Лечебный</a>
+                            <a href="#">Холистик</a>
+                        </div>
+                    </div>
+
+                    <div class="subcategory-block">
+                        <h3 class="subcategory-title">Игрушки</h3>
+                        <div class="subcategory-links">
+                            <a href="#">Из натуральных материалов</a>
+                            <a href="#">Игрушки с чипом</a>
+                            <a href="#">Интерактивные</a>
+                            <a href="#">Мыши</a>
+                            <a href="#">Мячики для кошек</a>
+                            <a href="#">Развивающие</a>
+                            <a href="#">С мятой</a>
+                            <a href="#">Текстильные</a>
+                            <a href="#">Дразнилки</a>
+                        </div>
+                    </div>
+
+                    <div class="subcategory-block">
+                        <h3 class="subcategory-title">Средства гигиены и косметика</h3>
+                        <div class="subcategory-links">
+                            <div class="subcategory-group">
+                                <a href="#">Шампуни</a>
+                                <a href="#">Сухие</a>
+                                <a href="#">Для длинношерстных</a>
+                                <a href="#">Для короткошерстных</a>
+                                <a href="#">Для лысых</a>
+                                <a href="#">Для белых кошек</a>
+                                <a href="#">Гипоаллергенный</a>
+                                <a href="#">Влажные салфетки</a>
+                                <a href="#">Уход за глазами</a>
+                                <a href="#">Уход за ушами</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Компания</h4>
+                <h4>Партнеры</h4>
+            </div>
+            <div class="footer-col">
+                <h4>8 800 **** ***</h4>
+                <h4>Наш рейтинг</h4>
+                <a href="#">Политика обработки персональных данных</a>
+                <br>
+                <a href="#">Согласие на обработку персональных данных</a>
+                <br>
+                <a href="#">Пользовательское соглашение</a>
+            </div>
+            <div class="footer-col footer-docs">
+                <h4>Мы в соцсетях</h4>
+                <h4>Мы в соцсетях</h4>
+                <a href="#">Согласие на получение новостной и рекламной рассылки</a>
+                <br>
+                <a href="#">Описание рекомендательных алгоритмов</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© Все права защищены.</p>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.burger-menu')?.addEventListener('click', function() {
+            document.querySelector('.nav-list')?.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

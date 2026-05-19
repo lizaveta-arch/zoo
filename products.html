@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Товары</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="dog.png" alt="Логотип" class="logo-img">
+            </div>
+        
+            <div class="search-section">
+                <div class="search-wrapper">
+                    <input type="text" class="search-input" placeholder="Поиск товаров, брендов...">
+                    <button class="catalog-btn">Каталог →</button>
+                </div>
+            </div>
+            
+            <div class="burger-menu">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+            
+            <nav class="top-nav">
+                <ul class="nav-list">
+                    <li><a href="cart.html">Корзина</a></li>
+                    <li><a href="index.html">Бренды</a></li>
+                    <li><a href="catalog.html">Магазины</a></li>
+                    <li><a href="profile.html">Профиль</a></li>
+                    <li><a href="articles.html">Статьи</a></li>
+                    <li><a href="#">Товары</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="products-page">
+            <div class="products-container">
+                <aside class="products-filter">
+                    <div class="filter-group">
+                        <h4 class="filter-group-title">Вес упаковки</h4>
+                        <div class="weight-inputs">
+                            <input type="text" class="weight-input" placeholder="от">
+                            <span>—</span>
+                            <input type="text" class="weight-input" placeholder="до">
+                            <span>кг</span>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4 class="filter-group-title">Цена</h4>
+                        <div class="price-slider-container">
+                            <div class="price-track">
+                                <div class="price-range"></div>
+                            </div>
+                            <div class="price-labels">
+                                <span>0 ₽</span>
+                                <span>5 000 ₽</span>
+                                <span>10 000 ₽</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4 class="filter-group-title">Бренд</h4>
+                        <div class="brand-checkboxes">
+                            <label><input type="checkbox"> Whiskas</label>
+                            <label><input type="checkbox"> Royal Canin</label>
+                            <label><input type="checkbox"> Purina ONE</label>
+                            <label><input type="checkbox"> Hill's</label>
+                            <label><input type="checkbox"> ProPlan</label>
+                            <label><input type="checkbox"> Acana</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4 class="filter-group-title">Тип корма</h4>
+                        <div class="type-checkboxes">
+                            <label><input type="checkbox"> Сухой</label>
+                            <label><input type="checkbox"> Влажный</label>
+                            <label><input type="checkbox"> Лечебный</label>
+                            <label><input type="checkbox"> Холистик</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4 class="filter-group-title">Возраст</h4>
+                        <div class="age-checkboxes">
+                            <label><input type="checkbox"> Котёнок (до 1 года)</label>
+                            <label><input type="checkbox"> Взрослый (1-7 лет)</label>
+                            <label><input type="checkbox"> Пожилой (7+ лет)</label>
+                        </div>
+                    </div>
+                </aside>
+
+                <div class="products-grid-container">
+                
+
+                    <div class="products-card-grid">
+                        <div class="product-item">
+                            <div class="product-item-image">
+                                <img src="net.png" alt="Корм">
+                            </div>
+                            <div class="product-item-price">1 290 ₽</div>
+                            <div class="product-item-name">Корм Whiskas для кошек с курицей, сухой, 1.5 кг</div>
+                            <button class="product-item-cart">В корзину</button>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="product-item-image">
+                                <img src="net.png" alt="Корм">
+                            </div>
+                            <div class="product-item-price">890 ₽</div>
+                            <div class="product-item-name">Корм Whiskas влажный в паучах, 12x85 г</div>
+                            <button class="product-item-cart">В корзину</button>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="product-item-image">
+                                <img src="net.png" alt="Корм">
+                            </div>
+                            <div class="product-item-price">2 490 ₽</div>
+                            <div class="product-item-name">Royal Canin для стерилизованных кошек, 2 кг</div>
+                            <button class="product-item-cart">В корзину</button>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="product-item-image">
+                                <img src="net.png" alt="Корм">
+                            </div>
+                            <div class="product-item-price">550 ₽</div>
+                            <div class="product-item-name">Purina ONE для котят, 800 г</div>
+                            <button class="product-item-cart">В корзину</button>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="product-item-image">
+                                <img src="net.png" alt="Корм">
+                            </div>
+                            <div class="product-item-price">3 990 ₽</div>
+                            <div class="product-item-name">Acana Grasslands для кошек, 4.5 кг</div>
+                            <button class="product-item-cart">В корзину</button>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="product-item-image">
+                                <img src="net.png" alt="Корм">
+                            </div>
+                            <div class="product-item-price">1 790 ₽</div>
+                            <div class="product-item-name">Hill's Science Plan для кошек, 1.5 кг</div>
+                            <button class="product-item-cart">В корзину</button>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="product-item-image">
+                                <img src="net.png" alt="Корм">
+                            </div>
+                            <div class="product-item-price">2 190 ₽</div>
+                            <div class="product-item-name">ProPlan для чувствительного пищеварения, 3 кг</div>
+                            <button class="product-item-cart">В корзину</button>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="product-item-image">
+                                <img src="net.png" alt="Корм">
+                            </div>
+                            <div class="product-item-price">1 490 ₽</div>
+                            <div class="product-item-name">Корм Whiskas для котят с молоком, 1.2 кг</div>
+                            <button class="product-item-cart">В корзину</button>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="product-item-image">
+                                <img src="net.png" alt="Корм">
+                            </div>
+                            <div class="product-item-price">4 490 ₽</div>
+                            <div class="product-item-name">Royal Canin гипоаллергенный, 2.5 кг</div>
+                            <button class="product-item-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Компания</h4>
+                <h4>Партнеры</h4>
+            </div>
+            <div class="footer-col">
+                <h4>8 800 **** ***</h4>
+                <h4>Наш рейтинг</h4>
+                <a href="#">Политика обработки персональных данных</a>
+                <br>
+                <a href="#">Согласие на обработку персональных данных</a>
+                <br>
+                <a href="#">Пользовательское соглашение</a>
+            </div>
+            <div class="footer-col footer-docs">
+                <h4>Мы в соцсетях</h4>
+                <h4>Мы в соцсетях</h4>
+                <a href="#">Согласие на получение новостной и рекламной рассылки</a>
+                <br>
+                <a href="#">Описание рекомендательных алгоритмов</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© Все права защищены.</p>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.burger-menu')?.addEventListener('click', function() {
+            document.querySelector('.nav-list')?.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
