@@ -1145,6 +1145,12 @@ body {
         right: 15px;
     }
     
+    .logo-img {
+        width: 200px;
+        height: auto;
+        object-fit: contain;
+    }
+
     .mock-product {
         width: 220px;
         height: 220px;
@@ -1612,10 +1618,8 @@ body {
     }
 }
 
-/* ========== ДОПОЛНИТЕЛЬНАЯ АДАПТИВНОСТЬ ДЛЯ МАЛЕНЬКИХ ЭКРАНОВ ========== */
 
 @media (max-width: 580px) {
-    /* Шапка */
     .header-content {
         padding: 0 15px;
     }
