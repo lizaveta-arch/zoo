@@ -583,7 +583,6 @@ body {
     gap: 16px 32px;
 }
 
-/* ========== СТРАНИЦА ТОВАРОВ ========== */
 .products-page {
     background-color: #FBF4E9;
     padding: 60px 0 80px;
@@ -738,7 +737,6 @@ body {
     font-family: inherit;
 }
 
-/* ========== СТРАНИЦА КОРЗИНЫ ========== */
 .cart-page {
     background-color: #FBF4E9;
     padding: 60px 0 80px;
@@ -899,7 +897,6 @@ body {
     font-family: inherit;
 }
 
-/* ========== СТРАНИЦА ПРОФИЛЯ ========== */
 .profile-page {
     background-color: #FBF4E9;
     padding: 60px 0 80px;
@@ -1236,7 +1233,7 @@ body {
     
     .logo-img {
         width: auto;
-        max-width: 200px;
+        max-width: 100px;
         height: auto;
         max-height: 50px;
     }
@@ -1639,7 +1636,6 @@ body {
         height: 2px;
     }
     
-    /* Слайдер — сохраняем пропорции */
     .slider-text {
         padding-left: 15px;
         padding-right: 10px;
@@ -1712,7 +1708,6 @@ body {
         margin: 0 15px;
     }
     
-    /* Каталог */
     .main-categories-list li a {
         font-size: 14px;
     }
@@ -1725,7 +1720,6 @@ body {
         font-size: 13px;
     }
     
-    /* Товары */
     .product-item {
         max-width: 260px;
         min-height: 380px;
@@ -1751,7 +1745,6 @@ body {
         font-size: 14px;
     }
     
-    /* Фильтры */
     .filter-group-title {
         font-size: 16px;
     }
@@ -1768,7 +1761,6 @@ body {
         font-size: 13px;
     }
     
-    /* Корзина */
     .cart-title {
         font-size: 24px;
     }
@@ -1829,7 +1821,6 @@ body {
         font-size: 14px;
     }
     
-    /* Профиль */
     .profile-title {
         font-size: 24px;
     }
@@ -1870,7 +1861,6 @@ body {
         font-size: 13px;
     }
     
-    /* Подвал */
     .footer-container {
         gap: 25px;
     }
@@ -1892,7 +1882,6 @@ body {
     }
 }
 
-/* Самые маленькие экраны (до 480px) */
 @media (max-width: 480px) {
     .slider-text {
         padding-left: 12px;
